@@ -1,4 +1,4 @@
-var guessNumber = function (n) {
+function guessNumber(n) {
   let left = 1;
   let right = n;
   while (left <= right) {

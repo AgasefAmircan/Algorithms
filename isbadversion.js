@@ -1,4 +1,4 @@
-var solution = function(isBadVersion) {
+function solution(isBadVersion) {
     return function(n) {
         let start=1;
         let end=n;

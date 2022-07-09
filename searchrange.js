@@ -1,4 +1,4 @@
-var searchRange = function (nums, target) {
+function searchRange (nums, target) {
   let left = 0,
     right = nums.length - 1;
 
