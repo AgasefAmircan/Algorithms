@@ -3,7 +3,7 @@ function isValid(s) {
   const characters = {
     ")": "(",
     "}": "{",
-    "]": "[",
+    "]": "[", 
   };
   for (let char of s) {
     if (!characters[char]) {
